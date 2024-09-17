@@ -1,0 +1,48 @@
+
+.reset__panel {
+	height: 450px;
+	width: 422px;
+	margin: 100px auto;
+	padding: 4px 43px;
+	box-shadow: 1px 1px 20px #f0f0f0;
+
+	.form__action {
+		justify-content: space-around;
+		padding: 20px 0;
+
+
+		.primary-line {
+			width: 99px;
+			border-color: #bababa;
+			color: #333;
+			background: #f1f1f1;
+			&:hover,
+			&:focus {
+				background: $primary;
+				color: $white;
+			}
+		}
+	}
+}
+.general--form {
+	&__text {
+		font-size: 24px;
+		font-weight: 400;
+	}
+}
+.form {
+	&__label {
+		padding: 10px 0;
+		font-size: 16px;
+	}
+}
+.button {
+	border-radius: 0;
+}
+.form__set {
+			input,
+			select,
+			textarea {
+				border-color: #d9d9d9;
+			}
+}

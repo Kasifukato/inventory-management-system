@@ -1,0 +1,18 @@
+@mixin font-base($font-size, $line-height) {
+	font-size: $font-size;
+	line-height: $line-height;
+}
+
+@mixin font($font-size, $line-height) {
+	font-size: $font-size;
+	line-height: $line-height;
+}
+
+@mixin inline-block($align:top) {
+	display: inline-block;
+	vertical-align: $align;
+}
+
+// @extend .clearfix {
+// 	overflow: hidden;
+// }
